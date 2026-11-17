@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v2
+        uses: jurplel/install-qt-action@c04feedfdfd6dbe64db62deda57fb0971a1bf440 # v2
         with:
           version: '5.15.1'
           host: 'mac'
